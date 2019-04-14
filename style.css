@@ -1,0 +1,92 @@
+body {
+  font-size: 1.3em;
+  font-family: monospace;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+#everything {
+  max-width: 35rem;
+  margin: 1em auto;
+  padding: 0 0.5em;
+}
+
+.stage {
+  margin: 1em 0.25em;
+  margin-bottom: 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-weight: normal; */
+}
+
+h1 {
+  /* font-weight: normal; */
+  margin-top: 2em;
+  /* text-transform: uppercase; */
+  /* font-size: 1em; */
+  /* border-bottom: 1px solid black; */
+  /* padding-bottom: 0.5em; */
+}
+
+.group {
+  background: white;
+  font-family: monospace;
+  max-width: 47em;
+  padding: 1em;
+  padding-bottom: 2em;
+  color: black;
+  margin-top: 4em;
+}
+
+.group a {
+  color: blue;
+}
+
+a.button {
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 0.75em 1em;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+a.button:visited {
+  color: purple;
+  border-color: purple;
+}
+
+.spacer {
+  height: 10rem;
+}
+
+a.home {
+  text-decoration: none;
+  color: blue;
+}
+
+ul, li {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+}
+
+ol li {
+  list-style-type: lower-alpha;
+}
+
+@media screen and (max-width: 490px) {
+
+  body {
+    font-size: 3.5vw;
+  }
+
+}
